@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="FunkyHippo" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:r0sl7142bc.database.windows.net,1433;Initial Catalog=FunkyHippoDB;User Id=lgosson@r0sl7142bc;Password=Bacon420" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="FunkyHippo.Models.Album+MovieDBContext-Web.config Connection String" description="" value="Data Source=tcp:r0sl7142bc.database.windows.net,1433;Initial Catalog=FunkyHippoDB;User Id=lgosson@r0sl7142bc;Password=Bacon420" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FunkyHippo.Models.Album+MovieDBContext']/@connectionString" />
+  </parameter>
+  <parameter name="FunkyHippoContext-Web.config Connection String" description="" value="Data Source=tcp:r0sl7142bc.database.windows.net,1433;Initial Catalog=FunkyHippoDB;User Id=lgosson@r0sl7142bc;Password=Bacon420" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FunkyHippoContext']/@connectionString" />
+  </parameter>
+</parameters>

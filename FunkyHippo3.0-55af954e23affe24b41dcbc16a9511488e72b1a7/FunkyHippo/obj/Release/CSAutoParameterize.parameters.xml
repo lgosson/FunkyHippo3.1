@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="FunkyHippoContext-Web.config Connection String" description="FunkyHippoContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=FunkyHippo2;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FunkyHippoContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="FunkyHippo.Models.Album+MovieDBContext-Web.config Connection String" description="FunkyHippo.Models.Album+MovieDBContext Connection String used in web.config by the application to access the database." defaultValue="FunkyHippo.Models.Album+MovieDBContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FunkyHippo.Models.Album+MovieDBContext']/@connectionString" />
+  </parameter>
+  <parameter name="FunkyHippoContext_DatabasePublish-Web.config Connection String" description="FunkyHippoContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="FunkyHippoContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\logan\\Documents\\GitHub\\FunkyHippo3\.0\\FunkyHippo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FunkyHippoContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
