@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FunkyHippo.Models
 {
-    public class Review
+    public class Review : IEntityModel
     {
         public int ID { get; set; }
         public int UserID { get; set; }

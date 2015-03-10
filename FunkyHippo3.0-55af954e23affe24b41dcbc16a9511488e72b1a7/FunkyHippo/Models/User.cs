@@ -6,9 +6,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FunkyHippo.Models
 {
-    public class User
+    public class User : IEntityModel
     {
-        public int UserID { get; set; }
+        public int ID { get; set; }
         [StringLength(50)]
         public string UserName { get; set; }
         [StringLength(50, ErrorMessage = "First name cannot be longer than 50 characters.")]

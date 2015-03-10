@@ -6,9 +6,9 @@ using System.Web;
 
 namespace FunkyHippo.Models
 {
-    public class Album
+    public class Album : IEntityModel
     {
-        public int AlbumID { get; set; }
+        public int ID { get; set; }
         public string Title { get; set; }
         public string Artist { get; set; }
         public string Genre { get; set; }

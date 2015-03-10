@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\logan\Documents\GitHub\FunkyHippo3.0\FunkyHippo\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\logan\Documents\GitHub\FunkyHippo3.0\FunkyHippo\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\logan\Documents\GitHub\FunkyHippo3.0\FunkyHippo\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\logan\Documents\GitHub\FunkyHippo3.1\FunkyHippo3.0-55af954e23affe24b41dcbc16a9511488e72b1a7\FunkyHippo\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\logan\Documents\GitHub\FunkyHippo3.1\FunkyHippo3.0-55af954e23affe24b41dcbc16a9511488e72b1a7\FunkyHippo\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\logan\Documents\GitHub\FunkyHippo3.1\FunkyHippo3.0-55af954e23affe24b41dcbc16a9511488e72b1a7\FunkyHippo\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

@@ -7,16 +7,16 @@ namespace FunkyHippo.Models
 {
     public class ReviewViewModel
     {
-        private int ID { get; set; }
+        
         public string Title { get; set; }
-        public int Rating { get; set; }
-        public string Comment { get; set; }
-        public UserViewModel UserName { get; set; }
+        public string Artist { get; set; }
+        public RViewModel Album { get; set; }
     }
 
-    public class UserViewModel
+    public class RViewModel
     {
         public string UserName{get; set;}
+        public int Rating { get; set; }
 
     }
 }
